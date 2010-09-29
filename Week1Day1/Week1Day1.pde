@@ -1,4 +1,5 @@
 // Adding a comment to test GitHub
+// Adding a new comment
 import processing.opengl.*;
 
 float viewAngle=0.0;
