@@ -10,7 +10,7 @@ void setup()
 void draw()
 {
   background(0);
-  
+/*  
   for (int i = 0; i < 1280; i++)
   {
     for (int j = 0; j < 720; j++)
@@ -19,8 +19,8 @@ void draw()
       point (i, j);
     }
   }
-  
- /* 
+*/  
+ 
   if (keyPressed == true) {
     
     if (keyCode == RIGHT) {
@@ -38,6 +38,7 @@ void draw()
   }
   
   ellipse(640, 360, ovalwidth, ovalheight);
-*/
+  
+  rect(640, 360, ovalwidth, ovalheight);
 
 }
